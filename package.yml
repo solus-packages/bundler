@@ -1,6 +1,6 @@
 name       : bundler
 version    : 1.13.0
-release    : 1
+release    : 2
 source     :
     - https://rubygems.org/downloads/bundler-1.13.0.gem : 0c779c47e2561b8bab7c12f82d9ca5d3b0c0a6f7839bacaf1ddec1c2218db929
 license    : MIT
@@ -11,6 +11,9 @@ description: |
 extract    : no
 builddeps  :
     - pkgconfig(ruby-2.2)
+rundeps    :
+    - git
+    - ruby-devel
 install    : |
     export geminstalldir=$(ruby -e'puts Gem.default_dir')
     export GEM_HOME=$geminstalldir
