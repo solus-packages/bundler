@@ -1,8 +1,8 @@
 name       : bundler
-version    : 1.13.0
-release    : 2
+version    : 1.13.7
+release    : 3
 source     :
-    - https://rubygems.org/downloads/bundler-1.13.0.gem : 0c779c47e2561b8bab7c12f82d9ca5d3b0c0a6f7839bacaf1ddec1c2218db929
+    - https://rubygems.org/downloads/bundler-1.13.7.gem : a9f0c8c5cf977cadce77e6185695d4a0b956a73569a5634b15b34cc07fdb7bab
 license    : MIT
 component  : programming.tools
 summary    : Manage your application's gem dependencies with less pain
