@@ -1,8 +1,8 @@
 name       : bundler
-version    : 1.13.7
-release    : 3
+version    : 1.15.4
+release    : 4
 source     :
-    - https://rubygems.org/downloads/bundler-1.13.7.gem : a9f0c8c5cf977cadce77e6185695d4a0b956a73569a5634b15b34cc07fdb7bab
+    - https://rubygems.org/downloads/bundler-1.15.4.gem : fad17ea3a1c15df2f2a7fcea052b35ebeab0dc87906cd762470637bef8c98472
 license    : MIT
 component  : programming.tools
 summary    : Manage your application's gem dependencies with less pain
@@ -10,7 +10,7 @@ description: |
     Manage your application's gem dependencies with less pain
 extract    : no
 builddeps  :
-    - pkgconfig(ruby-2.2)
+    - pkgconfig(ruby-2.3)
 rundeps    :
     - git
     - ruby-devel
